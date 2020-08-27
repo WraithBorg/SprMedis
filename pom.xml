@@ -5,7 +5,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>ReactivelyRedis</module>
-        <module>CommonRedis</module>
+        <module>MessageingRedis</module>
+        <module>CrudRedis</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
