@@ -1,6 +1,6 @@
-package com.medis.controller;
+package com.sprmedis.react.controller;
 
-import com.medis.entity.Coffee;
+import com.sprmedis.react.entity.Coffee;
 import org.springframework.data.redis.core.ReactiveRedisOperations;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

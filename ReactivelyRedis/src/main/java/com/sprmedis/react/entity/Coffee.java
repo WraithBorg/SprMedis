@@ -1,4 +1,4 @@
-package com.medis.entity;
+package com.sprmedis.react.entity;
 
 public class Coffee {
     private String id;

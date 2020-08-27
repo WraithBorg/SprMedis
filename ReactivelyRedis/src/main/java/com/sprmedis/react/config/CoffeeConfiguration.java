@@ -1,7 +1,6 @@
-package com.medis.config;
+package com.sprmedis.react.config;
 
-import com.medis.entity.Coffee;
-import org.springframework.cache.annotation.CachingConfigurerSupport;
+import com.sprmedis.react.entity.Coffee;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.ReactiveRedisConnectionFactory;

@@ -1,6 +1,6 @@
-package com.medis.component;
+package com.sprmedis.react.component;
 
-import com.medis.entity.Coffee;
+import com.sprmedis.react.entity.Coffee;
 import org.springframework.data.redis.connection.ReactiveRedisConnectionFactory;
 import org.springframework.data.redis.core.ReactiveRedisOperations;
 import org.springframework.stereotype.Component;
