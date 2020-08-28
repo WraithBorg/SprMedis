@@ -7,6 +7,7 @@
         <module>ReactivelyRedis</module>
         <module>MessageingRedis</module>
         <module>CrudRedis</module>
+        <module>SprMongo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -39,6 +40,11 @@
         <dependency>
             <groupId>io.projectreactor</groupId>
             <artifactId>reactor-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
             <scope>test</scope>
         </dependency>
     </dependencies>
