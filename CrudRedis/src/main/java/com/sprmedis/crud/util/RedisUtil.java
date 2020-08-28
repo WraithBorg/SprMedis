@@ -19,4 +19,13 @@ public class RedisUtil {
     public String getRedis(String key) {
         return stringRedisTemplate.opsForValue().get(key);
     }
+
+    private void otherOps() {
+        stringRedisTemplate.opsForValue();// 操作字符串
+        stringRedisTemplate.opsForHash();// 操作hash
+        stringRedisTemplate.opsForList();// 操作list
+        stringRedisTemplate.opsForSet();// 操作set
+        stringRedisTemplate.opsForZSet();// 操作有序set
+    }
+
 }
